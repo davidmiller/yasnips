@@ -2,3 +2,4 @@
 *.log
 *.ropeproject/*
 *.hg/*
+sync.sh
