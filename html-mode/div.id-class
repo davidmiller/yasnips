@@ -1,6 +1,7 @@
 #contributor : Jimmy Wu <frozenthrone88@gmail.com>
+# contributor: David Miller <david@deadpansincerity.com>
 #name : <div id="..." class="...">...</div>
 # --
 <div id="$1" class="$2">
   $0
-</div>
+</div><!--$1-->

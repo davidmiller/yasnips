@@ -1,0 +1,7 @@
+#contributor : David Miller <david@deadpansincerity.com>
+#name : foreach.../for
+#group: smarty
+# --
+{foreach from=\$${1:var} item=${2:local}}
+  $0
+{/foreach}

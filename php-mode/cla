@@ -8,9 +8,12 @@
 */
 class ${2:MyClass}
 {
-
-
-    function ${3:my_function}( ${4:args} )
+     /**
+     *  Class constructor
+     *
+     * @param: $3
+     */
+    function $2( ${3:args} )
     {
         $0
     }

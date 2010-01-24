@@ -1,0 +1,8 @@
+# contributor: David Miller <david@deadpansincerity.com>
+# name : {% for... %}
+# key: for%
+# group: django      
+# --
+{% for ${1:item} in ${2:list} %}
+   $0
+{% endfor %}

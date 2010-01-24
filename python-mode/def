@@ -2,9 +2,11 @@
 # name: def
 # contributor: Orestis Markou
 # contributor: Yasser González Fernández <yglez@uh.cu>
+# contributor: David Miller <david@deadpansincerity.com>
 # --
 def ${1:name}($2):
-    """$3
+    """
+    $3
     ${2:$
       (let* 
         ((indent

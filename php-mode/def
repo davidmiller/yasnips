@@ -1,0 +1,6 @@
+# -*- coding: utf-8 -*-
+# name: define(..)
+# contributor: David Miller <david@deadpansincerity.com>
+# --
+define( "${1:CONSTANT}", ${2:value} );
+$0

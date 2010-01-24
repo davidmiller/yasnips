@@ -1,0 +1,5 @@
+# -*- coding: utf-8 -*-
+# name: fro
+# contributor: David Miller <david@deadpansincerity.com>
+# --
+from ${1:module } import ${2:item}

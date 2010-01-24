@@ -1,0 +1,8 @@
+# contributor: David Miller <david@deadpansincerity.com>
+# name : {% if... %}
+# key: if%
+# group: django      
+# --
+{% if $1 %}
+   $0
+{% endif %}
