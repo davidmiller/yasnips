@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# name: forin
+# name: if
 # contributor: David Miller <david@deadpansincerity.com>
 # --
-for( ${1:var} in ${2:obj} ){
+if( ${1:condition} ){
     $0
 }

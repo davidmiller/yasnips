@@ -2,7 +2,6 @@
 # name: fore
 # contributor: David Miller <david@deadpansincerity.com>
 # --
-foreach( ${1:obj} as ${2:item} )
-{
+foreach( ${1:obj} as ${2:item} ){
     $0
 }
