@@ -1,0 +1,7 @@
+#contributor : David Miller <david@deadpansincerity.com>
+#name : <h3 class>...</h3>
+#group : header
+# --
+<h3 class="$1">
+  $2
+</h3>

@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+# name: Docbloc script
+# group: Docs
+#
+# contributor: David Miller <david@deadpansincerity.com>
+# --
+/*
+*  ${1:shortDesc}
+*
+*  ${2:LongDesc}
+*
+*  @author $3
+*  @package $4
+*  @subpackage $5
+*
+*/
