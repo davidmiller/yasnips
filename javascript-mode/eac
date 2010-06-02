@@ -1,8 +1,9 @@
 # -*- coding: utf-8; mode: snippet -*-
-# name: fun
+# name: jQuery each()
+# key: eac
+# group: jquery
 # contributor: David Miller <david@deadpansincerity.com>
 # --
-/** $1 */
-function ${2:my_function}( ${3:args} ){
+$.each( ${1:an-array}, function( i ){
     $0
-}
+});

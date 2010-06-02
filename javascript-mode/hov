@@ -1,8 +1,14 @@
 # -*- coding: utf-8; mode: snippet -*-
-# name: fun
+# name: jQuery selector
+# key: hov
+# group: jquery
 # contributor: David Miller <david@deadpansincerity.com>
 # --
-/** $1 */
-function ${2:my_function}( ${3:args} ){
+hover( 
+    function(){
     $0
-}
+    },
+    function(){
+
+    }
+);

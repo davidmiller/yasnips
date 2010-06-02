@@ -1,0 +1,19 @@
+# -*- mode: python; coding: utf-8 -*-
+# name: TestCase
+# group: Unit Testing
+# contributor: David Miller <david@deadpansinceity.com>
+# --
+class ${1:Name}TestCase(TestCase):
+    def setUp(self):
+        self.${2:property} = $3
+        $4
+
+def Test${5:Something}(self):
+    ${6:do_something}               
+        
+def tearDown(self):
+    'Depopulate created model instances from test database.'
+    for model in MODELS:
+        for obj in model.objects.all():
+            obj.delete()
+            

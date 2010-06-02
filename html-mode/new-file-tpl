@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# contributor: David Miller <david@deadpansincerity.com>
+# name : New File Template
+# key : new-file-tpl
+# --
+<html>
+  <head>
+  </head>
+
+  <body>
+
+  </body>
+
+</html>

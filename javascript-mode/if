@@ -1,8 +1,7 @@
 # -*- coding: utf-8; mode: snippet -*-
-# name: fun
+# name: if
 # contributor: David Miller <david@deadpansincerity.com>
 # --
-/** $1 */
-function ${2:my_function}( ${3:args} ){
+if( ${1:condition} ){
     $0
 }
