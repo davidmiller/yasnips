@@ -6,7 +6,7 @@
 * $1 
 *
 * @param: $3
-* @returnVelue
+* @returnValue
 */
 function ${2:my_function}( ${3:args} ){
     $0
