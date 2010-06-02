@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: David Miller <david@deadpansincerity.com>
+# name : {% for %}
+# --
+{% for ${1:item} in ${2:object} %}
+   $0
+{% endfor %}
