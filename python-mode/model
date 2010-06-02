@@ -1,10 +1,8 @@
-# -*- mode: python; coding: utf-8 -*-
+
+# -*- coding: utf-8; mode: snippet -*-
 # name: model
 # group: django
 # contributor: David Miller <david@deadpansinceity.com>
-# contributor: Orestis Markou
-# contributor: Nishio Hirokazu
-# contributor: Yasser González Fernández <yglez@uh.cu>
 # --
 class ${1:ClassName}( models.Model ):
     """
