@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cd /home/david/syncs/yasnips/
 rsync -arvuz /home/david/.emacs.d/yasnippet/snippets/text-mode/python-mode/ python-mode/
 rsync -arvuz /home/david/.emacs.d/yasnippet/snippets/text-mode/django-mode/ django-mode/
 rsync -arvuz /home/david/.emacs.d/yasnippet/snippets/text-mode/html-mode/ html-mode/

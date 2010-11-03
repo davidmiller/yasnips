@@ -9,7 +9,7 @@ class ${1:Name}TestCase(${2:TestCase}):
     fixtures = [${4:'fixture.json'}]
 
     def test${5:Something}(self):
-        """ """
+        "${6:TestDesc}"
         $0pass
 
 
