@@ -1,10 +1,10 @@
 # -*- coding: utf-8; mode: snippet -*-
 # name: jQuery selector
-# key: post
+# key: get
 # group: jquery
 # contributor: David Miller <david@deadpansincerity.com>
 # --
-$.post(${1:url},
+$.get(${1:url},
      ${2:values},
      function(data){
         $0
