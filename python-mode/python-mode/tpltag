@@ -1,0 +1,12 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: tpltag
+# contributor: David Miller <david@deadpansincerity.com>
+# --
+class ${1:ClassName}(Node):
+    """
+    $2
+    """
+    def render(self, context):
+        "$3"
+        $0
+        return ""

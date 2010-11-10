@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+# name: setup
+# group: packaging
+# contributor: David Miller <david@deadpansincerity.com>
+# --
+from distutils.core import setup
+
+setup( 
+    name = "${1:Package Name}",
+    packages = "${2:Included Packages}",
+    version = "${3:0.1}",
+    description = "$4",
+    author = "${5:David Miller}",
+    author_email = "${6:david@deadpansincerity.com}",
+    url = "${7:http://blog.deadpansincerity.com}",
+    long_description = "$8",
+    classifiers = [
+        "Programming Language :: Python",
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: GNU General Public License (GPL)",
+        "Operating System :: OS Independent",
+        "Development Status :: 2 - Pre-Alpha",
+        "Intended Audience :: End Users/Desktop",
+        "Topic :: System :: Archiving :: Mirroring",
+        "Topic :: Software Development :: Version Control",
+        "Topic :: Utilities"
+    ]   
+)

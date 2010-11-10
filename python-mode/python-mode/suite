@@ -1,0 +1,33 @@
+# -*- coding: utf-8 -*-
+# name: suite
+# group: testing
+# contributor: David Miller <david@deadpansincerity.com>
+# --
+#!/usr/bin/env python3
+"""
+Test suite for ${1:file}.py
+"""
+
+import unittest
+
+from . import $1
+
+class ${1:$(capitalize text)}Test( unittest.TestCase ):
+    """ Boilerplate setUp() && tearDown() """
+
+    def setUp( self ):
+        """ $4 """
+        ${5:pass}
+
+    def tearDown( self ):
+        """ $6 """
+        ${7:pass}
+
+
+class test${8:MyTestClassName}( $1Test ):
+     """ ${9:Tests grouped by} """
+
+    def test${10:Name}( self ):
+        """ $11 """
+        $0
+        self.assert

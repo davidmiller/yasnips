@@ -1,0 +1,8 @@
+# -*- mode: snippet; coding: utf-8 -*-
+# name: try
+# contributor: David Miller <david@deadpansincerity.com>
+# --
+try:
+    ${2:pass}
+except ${1:Exception}:
+    pass

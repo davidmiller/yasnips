@@ -1,0 +1,10 @@
+# -*- mode: python; coding: utf-8 -*-
+# name: Test
+# group: Unit Testing
+# contributor: David Miller <david@deadpansinceity.com>
+# --
+def test${1:Something}(self):
+    """ $2 """
+    $0pass
+
+

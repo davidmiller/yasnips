@@ -1,0 +1,11 @@
+# contributor: David Miller <david@deadpansincerity.com>
+# name : view...to_response
+# group: django      
+# --
+def ${1:my_view}( request ):
+    """
+    ${2:what does this view do}
+    """
+    $0
+    return render_to_response( "${3:template.html}",
+                               {} )

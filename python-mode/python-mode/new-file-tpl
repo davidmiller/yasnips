@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: David Miller <david@deadpansincerity.com>
+# name : New File Template
+# key : new-file-tpl
+# --
+#!/usr/bin/python
+$0
