@@ -1,11 +1,11 @@
 #!/bin/bash
+Targets=('python-mode', 'django-mode', 'html-mode', 'javascript-mode' 'php-mode', 'nxml-mode')
 cd /home/david/syncs/yasnips/
-rsync -arvuz /home/david/.emacs.d/yasnippet/snippets/text-mode/python-mode/ python-mode/
-rsync -arvuz /home/david/.emacs.d/yasnippet/snippets/text-mode/django-mode/ django-mode/
-rsync -arvuz /home/david/.emacs.d/yasnippet/snippets/text-mode/html-mode/ html-mode/
-rsync -arvuz /home/david/.emacs.d/yasnippet/snippets/text-mode/javascript-mode/ javascript-mode
-/rsync -arvuz /home/david/.emacs.d/yasnippet/snippets/text-mode/nxml-mode/ nxml-mode/
-rsync -arvuz /home/david/.emacs.d/yasnippet/snippets/text-mode/php-mode/ php-mode/
+for i in "${Targets[@]}"
+do
+    :
+    rsync -arvuz /home/david/.emacs.d/yasnippet/snippets/text-mode/$i/ $i
+done
 git add .
 git commit -a -m "Auto Commit from $HOSTNAME `date -u`"
 git push origin development
