@@ -1,5 +1,0 @@
-# -*- coding: utf-8; mode: snippet -*-
-#name : for ... in ... : ...
-# --
-for ${var} in ${collection}:
-    $0

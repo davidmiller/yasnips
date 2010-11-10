@@ -1,9 +1,0 @@
-# -*- coding: utf-8 -*-
-# name: class
-# group: testing
-# contributor: David Miller <david@deadpansincerity.com>
-# --
-    def test${1:Name}( self ):
-        """ $2 """
-        $0
-        self.assert

@@ -4,7 +4,7 @@ cd /home/david/syncs/yasnips/
 for i in "${Targets[@]}"
 do
     :
-    rsync -arvuz /home/david/.emacs.d/yasnippet/snippets/text-mode/$i/ $i
+    rsync -arvuz /home/david/.emacs.d/yasnippet/snippets/text-mode/$i/
 done
 git add .
 git commit -a -m "Auto Commit from $HOSTNAME `date -u`"
