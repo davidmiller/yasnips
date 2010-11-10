@@ -7,5 +7,5 @@ rsync -arvuz /home/david/.emacs.d/yasnippet/snippets/text-mode/javascript-mode/ 
 /rsync -arvuz /home/david/.emacs.d/yasnippet/snippets/text-mode/nxml-mode/ nxml-mode/
 rsync -arvuz /home/david/.emacs.d/yasnippet/snippets/text-mode/php-mode/ php-mode/
 git add .
-git commit -a -m "Auto Commit from Epicurus"
+git commit -a -m "Auto Commit from $HOSTNAME `date -u`"
 git push origin development

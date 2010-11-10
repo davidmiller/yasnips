@@ -3,5 +3,5 @@
 # group: Unit Testing
 # contributor: David Miller <david@deadpansinceity.com>
 # --
-self.assertEquals(self.${1:obj}, ${2:var})
+self.assertEqual(${1:expected}, ${2:var})
 $0
