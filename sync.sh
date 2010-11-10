@@ -1,5 +1,6 @@
 #!/bin/bash
-Targets=('python-mode', 'django-mode', 'html-mode', 'javascript-mode' 'php-mode', 'nxml-mode')
+Targets=('python-mode')
+#, 'django-mode', 'html-mode', 'javascript-mode' 'php-mode', 'nxml-mode')
 cd /home/david/syncs/yasnips/
 for i in "${Targets[@]}"
 do
