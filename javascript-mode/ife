@@ -1,9 +1,10 @@
 # -*- coding: utf-8; mode: snippet -*-
-# name: jQuery each()
-# key: eac
-# group: jquery
+# name: if...else
+# key: if
 # contributor: David Miller <david@deadpansincerity.com>
 # --
-$.each(${1:an-array}, function(i){
-    $0
-});
+if(${1:condition}){
+    $2;
+}else{
+    $0;
+}
