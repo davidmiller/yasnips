@@ -1,6 +1,6 @@
 # -*- mode: snippet; coding: utf-8 -*-
-# name: assertFalse
+# name: assertTrue
 # group: Unit Testing
 # contributor: David Miller <david@deadpansinceity.com>
 # --
-self.assertFalse(${1:expression})$0
+self.assertTrue(${1:expression})$0
