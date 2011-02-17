@@ -3,5 +3,4 @@
 # group: Unit Testing
 # contributor: David Miller <david@deadpansinceity.com>
 # --
-self.failUnlessEqual(self.${1:obj}, ${2:var})
-$0
+self.failUnlessEqual(self.${1:obj}, ${2:var})$0

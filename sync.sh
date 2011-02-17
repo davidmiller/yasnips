@@ -9,4 +9,3 @@ done
 git add .
 git commit -a -m "Auto Commit from $HOSTNAME `date -u`"
 git push origin development
-date >> /home/david/snip.log
