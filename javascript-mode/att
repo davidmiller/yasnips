@@ -4,4 +4,4 @@
 # group: jquery
 # contributor: David Miller <david@deadpansincerity.com>
 # --
-attr( ${1:item} )$0
+attr(${1:item})$0
