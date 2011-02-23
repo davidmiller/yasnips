@@ -4,3 +4,4 @@
 *.ropeproject/*
 *.hg/*
 sync.sh
+.orig
