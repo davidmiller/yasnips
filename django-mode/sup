@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# contributor: David Miller <david@deadpansincerity.com>
+# name : super
+# --
+{{ block.super }}$0
