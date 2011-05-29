@@ -1,9 +1,9 @@
 # -*- coding: utf-8; mode: snippet -*-
-# name: jQuery Ready
-# key: rea
-# group: jquery
+# name: attr: function
+# key: fun
 # contributor: David Miller <david@deadpansincerity.com>
 # --
-$(document).ready( function(){
+// $1
+${2:attribute}: function (${3:args}) {
     $0
-});
+}

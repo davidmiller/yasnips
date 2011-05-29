@@ -1,9 +1,9 @@
 # -*- coding: utf-8; mode: snippet -*-
-# name: jQuery Ready
-# key: rea
-# group: jquery
+# name: _.map
+# key: map
+# group: _
 # contributor: David Miller <david@deadpansincerity.com>
 # --
-$(document).ready( function(){
+_.map(${1:iterable}, function(${2:args}){
     $0
 });

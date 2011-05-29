@@ -1,9 +1,10 @@
 # -*- coding: utf-8; mode: snippet -*-
-# name: jQuery Ready
-# key: rea
-# group: jquery
+# name: Jasmine describe
+# key: desc
+# group: Jasmine
 # contributor: David Miller <david@deadpansincerity.com>
 # --
-$(document).ready( function(){
+
+describe('${1:Spec}', function (){
     $0
 });

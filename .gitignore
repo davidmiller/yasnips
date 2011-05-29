@@ -5,3 +5,4 @@
 *.hg/*
 sync.sh
 .orig
+*~

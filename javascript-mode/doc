@@ -1,9 +1,8 @@
 # -*- coding: utf-8; mode: snippet -*-
-# name: jQuery Ready
-# key: rea
-# group: jquery
+# name: Docblock
+# key: doc
 # contributor: David Miller <david@deadpansincerity.com>
 # --
-$(document).ready( function(){
-    $0
-});
+// ${1:Title}
+//
+// $2
