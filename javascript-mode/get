@@ -9,4 +9,4 @@ $.get(${1:url},
      function(data){
         $0
      }
-)};
+);

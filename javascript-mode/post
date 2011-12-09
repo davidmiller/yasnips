@@ -9,4 +9,4 @@ $.post(${1:url},
      function(data){
         $0
      }
-)};
+);
